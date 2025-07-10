@@ -1,66 +1,85 @@
-# Meteo Project
+# Progetto Meteo
 
-## Overview
-The Meteo project is a Spring Boot application that provides weather data for selected cities using the Open-Meteo API. It features a user-friendly interface built with Thymeleaf and Chart.js to visualize temperature data.
+Benvenuti al Progetto Meteo! Questa applicazione vi permette di vedere il meteo di diverse città in modo semplice e chiaro.
 
-## Features
-- Select a city to view daily weather data.
-- Interactive temperature chart displaying hourly temperatures for the selected city.
-- Responsive design for a better user experience.
+## A cosa serve?
 
-## Prerequisites
-- Java 17 or higher
-- Maven 3.6 or higher
-- Docker (optional, for containerization)
+Questo programma vi mostra il tempo di alcune città, usando un grafico per farvi vedere la temperatura ora per ora. È facile da usare e si adatta bene a tutti gli schermi (computer, tablet, telefono).
 
-## Setup Instructions
+## Di cosa avete bisogno per usarlo?
 
-### Clone the Repository
+Per far funzionare questo programma sul vostro computer, avete bisogno di queste cose:
+
+  * **Java 17 o più recente:** È un programma fondamentale per far girare l'applicazione.
+  * **Maven 3.6 o più recente:** Serve per "costruire" il programma.
+  * **Docker (facoltativo):** Se volete far girare il programma in un modo un po' più avanzato, potete installarlo, ma non è obbligatorio.
+
+## Come si usa?
+
+Seguite questi semplici passaggi:
+
+### 1\. Prendete il programma
+
+Per prima cosa, dovete "scaricare" il programma sul vostro computer. Aprite un programma chiamato "Terminale" (o "Prompt dei comandi" su Windows) e scrivete queste due righe, una alla volta:
+
 ```bash
-git clone <repository-url>
+git clone <indirizzo-del-vostro-progetto>
 cd Meteo_Città
 ```
 
-### Build the Application
-To build the application, run the following command:
-```bash
-./mvnw clean package
-```
-or for Windows:
-```bash
-mvnw.cmd clean package
-```
+*(Sostituite `<indirizzo-del-vostro-progetto>` con l'indirizzo che vi è stato dato per scaricare il codice.)*
 
-### Run the Application
-You can run the application using the following command:
-```bash
-./mvnw spring-boot:run
-```
-or for Windows:
-```bash
-mvnw.cmd spring-boot:run
-```
+### 2\. Preparate il programma
 
-The application will start on `http://localhost:8080`.
+Ora dobbiamo "costruire" il programma. Nel "Terminale", scrivete questo comando:
 
-## Dockerization
-To build and run the application in a Docker container, use the following commands:
+  * Se usate Windows:
+    ```bash
+    mvnw.cmd clean package
+    ```
+  * Per tutti gli altri sistemi (Mac, Linux):
+    ```bash
+    ./mvnw clean package
+    ```
 
-### Build the Docker Image
-```bash
-docker build -t meteo-app .
-```
+### 3\. Fate partire il programma
 
-### Run the Docker Container
-```bash
-docker run -p 8080:8080 meteo-app
-```
+Per far partire il programma, sempre nel "Terminale", scrivete:
 
-## Usage
-Once the application is running, open your web browser and navigate to `http://localhost:8080`. You can select a city from the dropdown menu to view its weather data.
+  * Se usate Windows:
+    ```bash
+    mvnw.cmd spring-boot:run
+    ```
+  * Per tutti gli altri sistemi (Mac, Linux):
+    ```bash
+    ./mvnw spring-boot:run
+    ```
 
-## Contributing
-Contributions are welcome! Please submit a pull request or open an issue for any enhancements or bug fixes.
+Ora il programma è attivo\! Potete aprirlo nel vostro navigatore web (come Chrome, Firefox, Safari) andando a questo indirizzo: `http://localhost:8080`.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+### 4\. Usare il programma con Docker (Opzionale, per gli esperti)
+
+Se avete Docker installato e volete usarlo, ecco come fare:
+
+  * **Costruire l'immagine (una specie di "pacchetto" per Docker):**
+    ```bash
+    docker build -t meteo-app .
+    ```
+  * **Far partire il programma con Docker:**
+    ```bash
+    docker run -p 8080:8080 meteo-app
+    ```
+
+## Come funziona?
+
+Una volta aperto il programma nel vostro navigatore (all'indirizzo `http://localhost:8080`), vedrete una lista di città. Scegliete una città dal menù a tendina per vedere subito il suo meteo\!
+
+## Volete contribuire?
+
+Se volete migliorare il programma o avete trovato un problema, siete i benvenuti\! Potete inviare i vostri suggerimenti o segnalare i problemi.
+
+## Licenza
+
+Questo progetto è coperto da una licenza che si chiama MIT License. In breve, significa che potete usarlo, modificarlo e distribuirlo liberamente.
+
+-----
