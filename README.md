@@ -20,8 +20,7 @@ Questo programma ti permette di:
 
 Per far funzionare il programma, ti servono:
 
-  * **Docker**: Un programma che ti aiuta a far girare altre applicazioni in modo semplice.
-      * Puoi scaricarlo qui: [Scarica Docker Desktop](https://www.docker.com/products/docker-desktop/)
+  * **Docker**: Serve per far girare il programma. Puoi scaricarlo qui: [Scarica Docker Desktop](https://www.docker.com/products/docker-desktop/)
   * **Docker Compose**: Spesso è già incluso quando installi Docker.
 
 -----
