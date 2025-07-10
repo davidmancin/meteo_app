@@ -23,7 +23,7 @@ Seguite questi semplici passaggi:
 Per prima cosa, dovete "scaricare" il programma sul vostro computer. Aprite un programma chiamato "Terminale" (o "Prompt dei comandi" su Windows) e scrivete queste due righe, una alla volta:
 
 ```bash
-git clone <indirizzo-del-vostro-progetto>
+git clone https://github.com/davidmancin/meteo_app
 cd Meteo_Città
 ```
 
