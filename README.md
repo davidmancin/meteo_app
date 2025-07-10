@@ -12,7 +12,6 @@ Questo programma ti permette di:
 
 * **Scegliere una città** 🏙️ e scoprire che tempo fa.
 * Vedere un **grafico chiaro della temperatura** 📊 che ti mostra come cambia ora per ora.
-* Usarlo comodamente su **qualunque dispositivo** 💻📱: computer, tablet o smartphone.
 
 *Nota: Al momento, il programma visualizza il meteo per Torino, Firenze, Roma, Napoli, Milano e Grugliasco.*
 
