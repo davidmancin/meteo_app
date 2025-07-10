@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot App",
+            "request": "launch",
+            "mainClass": "com.meteo.MeteoApplication",
+            "projectName": "meteo",
+            "args": "",
+            "vmArgs": "-Dspring.profiles.active=dev",
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false,
+            "env": {
+                "SPRING_PROFILES_ACTIVE": "dev"
+            },
+            "console": "integratedTerminal",
+            "sourcePaths": [
+                "src/main/java",
+                "src/test/java"
+            ]
+        }
+    ]
+}
