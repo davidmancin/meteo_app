@@ -1,5 +1,3 @@
-Perfetto! Ecco la versione con un **uso moderato e mirato delle emoji**, solo nei punti chiave per aiutare la lettura senza appesantire:
-
 ---
 
 # Il tuo Meteo Facile ☀️
