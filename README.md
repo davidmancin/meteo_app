@@ -1,66 +1,94 @@
-# Meteo Project
+# Il tuo Meteo Facile
 
-## Overview
-The Meteo project is a Spring Boot application that provides weather data for selected cities using the Open-Meteo API. It features a user-friendly interface built with Thymeleaf and Chart.js to visualize temperature data.
+-----
 
-## Features
-- Select a city to view daily weather data.
-- Interactive temperature chart displaying hourly temperatures for the selected city.
-- Responsive design for a better user experience.
+Benvenuto\! Questo è un programma semplice per vedere le previsioni del tempo.
 
-## Prerequisites
-- Java 17 or higher
-- Maven 3.6 or higher
-- Docker (optional, for containerization)
+## A cosa serve?
 
-## Setup Instructions
+Questo programma ti permette di:
 
-### Clone the Repository
-```bash
-git clone <repository-url>
-cd Meteo_Città
-```
+  * **Scegliere una città** per vedere il suo meteo.
+  * Guardare un **grafico della temperatura** che ti mostra come cambia ora per ora.
+  * Usarlo comodamente su **qualsiasi dispositivo**: computer, tablet o smartphone.
 
-### Build the Application
-To build the application, run the following command:
-```bash
-./mvnw clean package
-```
-or for Windows:
-```bash
-mvnw.cmd clean package
-```
+## Di cosa hai bisogno?
 
-### Run the Application
-You can run the application using the following command:
-```bash
-./mvnw spring-boot:run
-```
-or for Windows:
-```bash
-mvnw.cmd spring-boot:run
-```
+Per far funzionare il programma sul tuo computer, ti servono un paio di cose (come gli "attrezzi"):
 
-The application will start on `http://localhost:8080`.
+  * **Java 17 o più nuovo:** È il "motore" che fa girare il programma.
+  * **Maven 3.6 o più nuovo:** Serve per "preparare" il programma prima che parta.
 
-## Dockerization
-To build and run the application in a Docker container, use the following commands:
+## Come si usa?
 
-### Build the Docker Image
-```bash
-docker build -t meteo-app .
-```
+Segui questi semplici passaggi per avviare il programma:
 
-### Run the Docker Container
-```bash
-docker run -p 8080:8080 meteo-app
-```
+-----
 
-## Usage
-Once the application is running, open your web browser and navigate to `http://localhost:8080`. You can select a city from the dropdown menu to view its weather data.
+### 1\. Prendi il programma
 
-## Contributing
-Contributions are welcome! Please submit a pull request or open an issue for any enhancements or bug fixes.
+Per prima cosa, devi "scaricare" il programma sul tuo computer.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+1.  Apri il **Terminale** (su Windows si chiama "Prompt dei comandi" o "PowerShell").
+2.  Scrivi questo comando e premi **Invio**:
+    ```bash
+    git clone https://github.com/davidmancin/meteo_app
+    ```
+3.  Poi, scrivi quest'altro comando e premi **Invio** per "entrare" nella cartella del programma:
+    ```bash
+    cd meteo_app
+    ```
+
+-----
+
+### 2\. Prepara il programma
+
+Ora dobbiamo "assemblare" il programma. Nel **Terminale**, scrivi il comando giusto per il tuo computer e premi **Invio**:
+
+  * **Se hai Windows:**
+    ```bash
+    mvnw.cmd clean package
+    ```
+  * **Se hai Mac o Linux:**
+    ```bash
+    ./mvnw clean package
+    ```
+
+-----
+
+### 3\. Fai partire il programma
+
+Quasi ci siamo\! Per accendere il programma, sempre nel **Terminale**, scrivi:
+
+  * **Se hai Windows:**
+    ```bash
+    mvnw.cmd spring-boot:run
+    ```
+  * **Se hai Mac o Linux:**
+    ```bash
+    ./mvnw spring-boot:run
+    ```
+
+Il programma è ora attivo\!
+
+-----
+
+### 4\. Guarda il Meteo
+
+Apri il tuo browser (come Chrome, Firefox o Safari) e vai a questo indirizzo: `http://localhost:8080`.
+
+Vedrai una lista di città. **Clicca su quella che ti interessa** per vedere il suo meteo\!
+
+-----
+
+## Vuoi dare una mano?
+
+Se hai idee per migliorare il programma o hai trovato un problema, sei il benvenuto\! Puoi segnalarlo o proporre modifiche.
+
+## Licenza
+
+Questo programma è libero di essere usato e modificato.
+
+-----
+
+Spero che questa versione sia chiara e facile da seguire\! Fammi sapere se hai altre domande.
