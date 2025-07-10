@@ -30,10 +30,26 @@ Per far funzionare il programma, ti servono:
 
 Ecco i passaggi per far partire il tuo Meteo Facile:
 
+### Preparazione (Facoltativo, ma Raccomandato)
+
+Prima di iniziare, ti consiglio di creare una nuova cartella sul tuo computer e di chiamarla, per esempio, `Meteo`.
+
+Poi, apri il **Terminale** (su Windows si chiama "Prompt dei comandi" o "PowerShell") **direttamente da questa nuova cartella**.
+
+  * **Su Windows**: Ti basterà cliccare con il destro del mouse sulla cartella e scegliere "Apri nel terminale".
+  * **Su Mac/Linux**: Apri il Terminale (lo trovi nelle Applicazioni, nella cartella Utility su Mac, o cercando "Terminale") e usa il comando `cd Percorso/Alla/Tua/Cartella`.
+
+Questo ti aiuterà a tenere i tuoi progetti ordinati.
+
+Se preferisci saltare questo passaggio e non vuoi creare una nuova cartella, puoi semplicemente aprire il Terminale così:
+
+  * **Su Windows**: Cerca "Prompt dei comandi" o "PowerShell" nella barra di ricerca di Windows e aprilo.
+
+  * **Su Mac/Linux**: Cerca "Terminale" nella barra di ricerca o lo trovi in "Applicazioni" -> "Utility".
+
 ### 1\. Scarica il programma
 
-Apri il **Terminale** (su Windows si chiama "Prompt dei comandi" o "PowerShell").
-Poi, scrivi questi due comandi, uno alla volta, e premi **Invio** dopo ognuno:
+Ora, nel **Terminale** che hai aperto, scrivi questi due comandi, uno alla volta, e premi **Invio** dopo ognuno:
 
 ```bash
 git clone https://github.com/davidmancin/meteo_app
