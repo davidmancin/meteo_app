@@ -12,6 +12,8 @@ Questo programma ti permette di:
   * Vedere un **grafico chiaro della temperatura** che ti mostra come cambia ora per ora.
   * Usarlo comodamente su **qualunque dispositivo**: computer, tablet o smartphone.
 
+*Nota: Al momento, il programma visualizza il meteo per Torino, Firenze, Roma, Napoli, Milano e Grugliasco.*
+
 -----
 
 ## Di cosa hai bisogno?
@@ -19,6 +21,7 @@ Questo programma ti permette di:
 Per far funzionare il programma, ti servono:
 
   * **Docker**: Un programma che ti aiuta a far girare altre applicazioni in modo semplice.
+      * Puoi scaricarlo qui: [Scarica Docker Desktop](https://www.docker.com/products/docker-desktop/)
   * **Docker Compose**: Spesso è già incluso quando installi Docker.
 
 -----
