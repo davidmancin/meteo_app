@@ -27,7 +27,7 @@ Per far funzionare il programma, ti servono:
 
 ---
 
-## Come si usa? ❓
+## Come si usa? 
 
 Ecco i passaggi per far partire il tuo Meteo Facile:
 
